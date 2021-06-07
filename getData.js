@@ -26,7 +26,7 @@ function fetchData()
    .join("");
    document.getElementById("app").innerHTML = getData;
    
-   //document.querySelector('#app').insertAdjacentHTML("afterbegin", getData);
+   //document.querySelector('#app').insertAdjacentHTML("afterbegin", getData); Test
 })
 .catch(error=>{
    console.log(error);
